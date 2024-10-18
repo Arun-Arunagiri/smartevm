@@ -13,8 +13,8 @@ function App() {
   return (
     <div>
         {/* <Config/> */}
-        {/* <Register/> */}
-        <Dashboard />
+        <Register/>
+        {/* <Dashboard /> */}
         {/* <Result/> */}
     </div>
   )
