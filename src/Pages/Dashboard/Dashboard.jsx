@@ -5,10 +5,10 @@ import evm from '../../assets/evm.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { faYoutube } from "@fortawesome/free-brands-svg-icons";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons"
-    ;
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import model from '../../assets/model.jpg';
 import model2 from '../../assets/model2.jpg';
+import Community from '../../Components/Community/Community';
 
 const Dashboard = () => {
     return (
@@ -82,7 +82,8 @@ const Dashboard = () => {
                 </div>
             </div>
             <div className="break" />
-            <div class="community">
+            <Community />
+            {/* <div class="community">
                 <div className="content">
                     <h1>COMMUNITY</h1>
                     <p>At Novotech, we are committed to fostering a strong and inclusive community around our innovative solutions. We believe that collaboration and open communication are the keys to driving progress and creating meaningful impact. Our community support is designed to assist you every step of the way. Here’s how we can help:</p>
@@ -105,7 +106,7 @@ const Dashboard = () => {
                     <h2>6. Workshops and Webinars</h2>
                     <p>Novotech organizes regular workshops, webinars, and training sessions to help you stay ahead with our latest technologies. Join our experts for hands-on training or deep dives into specific features and industry trends.</p>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
